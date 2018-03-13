@@ -1,7 +1,9 @@
 package com.winterbin.greenhouse;
 
-class GreenHouse {
+import com.winterbin.greenhouse.gui.GHInit;
+
+public class GreenHouse {
   public static void main(String args[]) {
-    new GUI();
+    new GHInit();
   }
 }
